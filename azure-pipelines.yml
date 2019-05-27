@@ -25,5 +25,5 @@ steps:
 - script: composer install --no-interaction --prefer-dist
   displayName: 'composer install'
 
-- script: phpunit --bootstrap vendor/autoload.php tests/EmailTest
+- script: phpunit --bootstrap vendor/autoload.php test/EmailTest
   displayName: 'Run tests with phpunit'
